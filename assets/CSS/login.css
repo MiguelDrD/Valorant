@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("../imgs/Omen\ boladao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: transparent;
+}
+
+form {
+  border: 2px solid #00ffdd3f;
+  border-radius: 5%;
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  backdrop-filter: blur(2px);
+  font-family: "poppins", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  color: #00ffdd;
+  text-shadow: 4px 4px #7500b88f;
+}
+
+.input-box {
+  width: 100%;
+  height: 30px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: baseline;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  padding: 2px 40px 5px 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #00ffdd44;
+  outline: none;
+}
+
+.input-box input::placeholder {
+  color: #ffffffb7;
+  font-weight: 500;
+}
+
+.input-box i {
+  align-self: center;
+  position: relative;
+  top: 4px;
+  transform: translateX(-200%);
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.remember-forgot label {
+  display: flex;
+  justify-content: baseline;
+  font-size: 16px;
+  color: #00ffdd;
+  font-weight: 600;
+  accent-color: #00ffdd;
+}
+
+.remember-forgot label input {
+  margin-right: 5px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.remember-forgot a:visited {
+  color: #eb0029;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+}
+
+.login {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  border: 2px solid transparent;
+  background-color: #ffffffbb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.botao :hover {
+  background: transparent;
+  color: #00ffdd;
+  border: 2px solid #00ffdd;
+  transition: 0.5s;
+  text-shadow: 3px 3px #7500b88f;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  color: #e5e5e5;
+  font-weight: 500;
+}
+
+.register a {
+  text-decoration: none;
+  font-weight: 200;
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+.register a:visited {
+  color: #ff3300;
+}

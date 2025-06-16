@@ -1,0 +1,82 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+display: block;
+margin-bottom: 1px;
+height: 1000px;
+background-image: url("../Gifs/4K_60FPS\ Cypher\ Animated\ Wallpaper\ -\ Valorant\ Fanart\(1080P_60FPS\).gif");
+background-size: cover; /* Para cobrir o elemento */
+background-repeat: no-repeat; /* Para não repetir a imagem */
+background-attachment: fixed; /* Para deixar a imagem fixa */
+background-position: center;  /* Para centralizar a imagem (opcional) */
+}
+
+.title{
+    float: left;
+    width: 80%;
+    height: 100px;
+    background-color: ;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 45px;
+    color: rgba(255, 0, 0, 0.89);
+    text-shadow: 4px 4px #b8000056;
+}
+
+.login{
+    width: 20%;
+    float: right;
+    height: 100px;
+    background-color:;
+
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding: 20px 100px 0px 0px;
+   
+}
+
+.login a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navegacao{
+    height: 50px;
+}
+
+nav ul{
+    background-color: ;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    list-style-type: none;
+    
+}
+
+.link{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+main{
+    display: block;
+    margin-top: 1px;
+}
