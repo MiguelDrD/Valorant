@@ -1,2 +1,2 @@
 # Valorant
-Esse é um projeto que estou iniciado para melhorar minhas habilidades como programador
+Esse é um projeto que estou iniciando para melhorar minhas habilidades como programador
