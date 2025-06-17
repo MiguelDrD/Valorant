@@ -23,6 +23,10 @@ background-attachment: fixed; /* Para deixar a imagem fixa */
 background-position: center;  /* Para centralizar a imagem (opcional) */
 }
 
+.video{
+    
+}
+
 .title{
     float: left;
     width: 100%;
