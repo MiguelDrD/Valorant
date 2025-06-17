@@ -23,8 +23,8 @@ background-attachment: fixed; /* Para deixar a imagem fixa */
 background-position: center;  /* Para centralizar a imagem (opcional) */
 }
 
-.video{
-    
+.video video{
+    width: 100%;
 }
 
 .title{
@@ -69,7 +69,7 @@ background-position: center;  /* Para centralizar a imagem (opcional) */
 .botao :hover {
   transition: 0.3s;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.514);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.514) 0px 5px 15px;
 }
 
 .navegacao{
@@ -128,13 +128,28 @@ main{
     padding-left: 10px;
     position: relative;
     top: 200px;
-    color: #fffffe;
+    color: #000000;
 }
 
-h3{
-    
-    
-    
+.text .text-one{
+    background-color: #e5e5e5;
+    border: 2px transparent solid;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 10px 0px;
+}
+
+.text .text-two{
+    background-color: #e5e5e5;
+    border: 2px transparent solid;
+    border-radius: 10px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text .text-two h3{
+
 }
 
 .icon{
