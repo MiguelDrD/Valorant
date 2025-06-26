@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agentes e Habilidades - Valorant</title>    <link rel="stylesheet" type="text/css" href="CSS/style.css"/></head>
+    <title>Agentes e Habilidades - Valorant</title>    
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/features.css"/>
+    <script src="JS/script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+</head>
 <body>
     <header class="fundo">
         <div class="video">
@@ -15,6 +20,16 @@
         <form class="botao" action="login.html">
             <button class="login" type="submit">Entrar</button>
         </form>
+
+           
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Busca...">
+                <div id="search-results"></div>
+                <i i class='bx  bx-search-alt'  style='color:#ffffff'></i>  
+            </div>
+
+            <button id="theme-toggle"><i class='bx  bx-moon'  style='color:#ffffff'></i></button>
+
         <nav class="navegacao">
             <ul>
                 <li>
@@ -132,6 +147,9 @@
             <p><strong>Dicas para Cypher</strong>: Posicione Fio-Armadilha em locais inesperados e difíceis de destruir. Use a Câmera de Vigilância para espiar antes de avançar ou para monitorar flancos. Combine Jaula Cibernética com Fio-Armadilha para criar armadilhas mortais. O Roubo Neural é um game-changer em situações de 1vX ou para iniciar um retake com vantagem de informação.</p>
         </div>
     </main>
+
+            <button id="back-to-top">↑</button>
+
     <footer>
     </footer>
 </body>

@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mira e Sensibilidade - Valorant</title>    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <title>Mira e Sensibilidade - Valorant</title>    
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/features.css"/>
+    <script src="JS/script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
 </head>
 <body>
     <header class="fundo">
@@ -16,6 +20,15 @@
         <form class="botao" action="login.html">
             <button class="login" type="submit">Entrar</button>
         </form>
+        
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Busca...">
+                <div id="search-results"></div>
+                <i i class='bx  bx-search-alt'  style='color:#ffffff'></i>  
+            </div>
+
+            <button id="theme-toggle"><i class='bx  bx-moon'  style='color:#ffffff'></i></button>
+
         <nav class="navegacao">
             <ul>
                 <li>
@@ -76,7 +89,7 @@
                 <li><strong>Ângulos e Cantos</strong>: Ao virar um canto ou entrar em uma área, antecipe onde um inimigo pode estar. Mantenha sua mira apontada para o canto, esperando que o inimigo apareça. Evite olhar para o chão ou para as paredes.</li>
                 <li><strong>Pré-aiming</strong>: Conheça os mapas e os pontos comuns onde os inimigos se posicionam. Use esse conhecimento para pré-apontar sua mira para esses locais antes mesmo de vê-los.</li>
             </ul>
-            <img src="valorant_crosshair_placement.png" alt="Crosshair Placement">
+            <img src="imgs/Omen boladao 2.jpg" alt="Crosshair Placement">
 
             <h3>2. Controle de Recuo (Recoil Control)</h3>
             <p>
@@ -138,6 +151,7 @@
             </p>
         </div>
     </main>
+            <button id="back-to-top">↑</button>
     <footer>
     </footer>
 </body>

@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapas - Valorant</title>    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <title>Mapas - Valorant</title>    
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/features.css"/>
+    <script src="JS/script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
 </head>
 <body>
     <header class="fundo">
@@ -16,6 +20,15 @@
         <form class="botao" action="login.html">
             <button class="login" type="submit">Entrar</button>
         </form>
+        
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Busca...">
+                <div id="search-results"></div>
+                <i i class='bx  bx-search-alt'  style='color:#ffffff'></i>  
+            </div>
+
+            <button id="theme-toggle"><i class='bx  bx-moon'  style='color:#ffffff'></i></button>
+
         <nav class="navegacao">
             <ul>
                 <li>
@@ -118,6 +131,7 @@
             </p>
         </div>
     </main>
+            <button id="back-to-top">↑</button>
     <footer>
     </footer>
 </body>
