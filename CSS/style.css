@@ -197,11 +197,19 @@ main {
 @media (max-width: 768px) {
     .title h1 {
         font-size: 2.5em;
+        text-align: center;
+        margin-top: 70px;
     }
 
+    
     .navegacao ul {
         flex-direction: column;
         gap: 10px;
+        margin: 0em 8em;
+    }
+
+    .video video{
+        
     }
 
     .pags {
@@ -219,6 +227,11 @@ main {
     .content h3 {
         font-size: 1.5em;
     }
+
+    .icon img{
+    width: 100px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -229,6 +242,7 @@ main {
     .login {
         padding: 8px 15px;
         font-size: 14px;
+        margin: 30px -20px 0px 0px;
     }
 
     .navegacao ul {

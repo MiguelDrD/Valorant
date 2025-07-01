@@ -34,9 +34,8 @@
 
 .search-container i{
     align-self: center;
-    position: absolute;
-   top: 15px;
-   left: 150px;
+    position: relative;
+    transform: translateX(1000%) translateY(-180%);
 }
 
 #search-input {
@@ -133,7 +132,7 @@
 #theme-toggle {
     position: fixed;
     top: 25px;
-    left: 220px;
+    left: 240px;
     background-color: transparent;
     color: #f0f0f0;
     border: 1px solid #007bff;
@@ -243,13 +242,20 @@ mark {
 /* Responsividade para elementos JavaScript */
 @media (max-width: 768px) {
     .search-container {
-        max-width: 90%;
-        margin: 15px auto;
+        max-width: 35%;
+        margin: -5px 0px -5px -20px;
+        position: absolute;
+    }
+
+    .search-container i{
+        align-self: center;
+        position: relative;
+        transform: translateX(820%) translateY(-180%);
     }
 
     #search-input {
         font-size: 14px;
-        padding: 10px 14px;
+        padding: 10px 35px 10px 10px;
     }
 
     #back-to-top {
@@ -262,10 +268,10 @@ mark {
 
     #theme-toggle,
     #favorite-btn {
-        top: 15px;
-        left: 15px;
+        margin: -10px 0px 0px 150px;
         padding: 6px 12px;
         font-size: 14px;
+        
     }
 
     #favorite-btn {
