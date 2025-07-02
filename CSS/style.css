@@ -261,7 +261,7 @@ main {
     .botao {
         position: absolute;
         top: 4px;
-        right: 3em;
+        right: 4em;
         z-index: 1;
     }
 
