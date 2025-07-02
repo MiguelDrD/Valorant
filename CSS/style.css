@@ -207,10 +207,17 @@ main {
 
 
 @media (max-width: 768px) {
+
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+
     .title h1 {
         font-size: 2.5em;
         text-align: center;
-        margin-top: 70px;
+        position: absolute;
+        top: 70px;
     }
 
     
@@ -251,11 +258,18 @@ main {
         font-size: 1.8em;
     }
 
-    .login {
-        padding: 8px 15px;
-        font-size: 14px;
-        margin: 30px -20px 0px 0px;
+    .botao {
+        position: absolute;
+        top: 4px;
+        right: 3em;
+        z-index: 1;
     }
+
+    .login {
+        font-size: 14px;
+    }
+
+    
 
     .navegacao ul {
         gap: 8px;

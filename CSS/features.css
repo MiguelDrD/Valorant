@@ -139,7 +139,7 @@
     border-radius: 25px;
     padding: 8px 16px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 2;
     transition: background-color 0.3s ease;
 }
 
@@ -269,10 +269,23 @@ mark {
 
     #theme-toggle,
     #favorite-btn {
-        margin: -10px 0px 0px 150px;
-        padding: 6px 12px;
-        font-size: 14px;
+        top: 25px;
         
+    }
+
+    #theme-toggle {
+    position: fixed;
+    left: auto;
+    right: 10px;
+    top: 2px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
     }
 
     #favorite-btn {
