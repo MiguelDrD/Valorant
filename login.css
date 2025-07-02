@@ -10,6 +10,8 @@
   background-image: url("imgs/Omen boladao.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 
   display: flex;
   align-items: center;
@@ -150,3 +152,9 @@ h1 {
 .register a:visited {
   color: #caf0f8;
 }
+
+
+
+
+
+
