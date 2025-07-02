@@ -35,7 +35,7 @@
 .search-container i{
     align-self: center;
     position: relative;
-    transform: translateX(1000%) translateY(-180%);
+    transform: translateX(1050%) translateY(-180%);
 }
 
 #search-input {
@@ -249,8 +249,9 @@ mark {
 
     .search-container i{
         align-self: center;
-        position: relative;
-        transform: translateX(820%) translateY(-180%);
+        position: absolute;
+        transform: translateY(-10%) translateX(-200%);
+        
     }
 
     #search-input {
