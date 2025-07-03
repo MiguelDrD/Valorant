@@ -96,17 +96,40 @@ function setupSearch() {
 // 5. Dark/Light mode toggle
 function setupThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
     if (!themeToggle) return;
 
-    const currentTheme = localStorage.getItem('theme') || 'dark';
-    document.body.setAttribute('data-theme', currentTheme);
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.body.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+    
+    
 
     themeToggle.addEventListener('click', () => {
         const newTheme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
         document.body.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
     });
+
+        function updateThemeIcon(theme) {
+        if (theme === 'dark') {
+            themeIcon.className = 'bx  bx-moon';
+        } else {
+            themeIcon.className = 'bx  bxs-sun';
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
 
 // 6. Contador de progresso de leitura
 function setupReadingProgress() {
