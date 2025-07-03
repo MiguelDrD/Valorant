@@ -321,6 +321,18 @@ mark {
         font-size: 14px;
     }
 
+        .search-container {
+        max-width: 35%;
+        margin: -5px 0px -5px -20px;
+        position: absolute;
+    }
+
+    .search-container i{
+        align-self: center;
+        position: absolute;
+        transform: translateX(-200%); 
+    }
+
     #reading-progress {
         height: 3px;
     }
