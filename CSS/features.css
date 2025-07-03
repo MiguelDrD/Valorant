@@ -36,7 +36,10 @@
     align-self: center;
     position: relative;
     transform: translateX(1050%) translateY(-180%);
+    color: #007bff;
 }
+
+
 
 #search-input {
     width: 100%;
@@ -53,6 +56,10 @@
 #search-input:focus {
     border-color: #00f0ff;
     box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.search-container:focus-within i {
+  color: #00f0ff;
 }
 
 #search-results {

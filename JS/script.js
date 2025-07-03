@@ -1,4 +1,4 @@
-// Funcionalidades JavaScript para o Site Valorant
+
 
 // 1. Smooth Scrolling para navegação interna
 function smoothScroll(target) {
@@ -120,15 +120,6 @@ function setupThemeToggle() {
         }
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 // 6. Contador de progresso de leitura
